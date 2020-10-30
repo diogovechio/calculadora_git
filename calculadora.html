@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="calculadora.css">
+</head>
+<body>
+    <div class='calculadora'>
+        <div class='subtela'></div>
+        <div class='tela'></div>
+        <button class='triplo' id='btnApaga' onclick='apagar()'>C</button>
+        <button class='op' id='btnDiv' onclick='adicionarOp("÷")'>÷</button>
+        <button id='btn7' onclick='adicionarNum("7")'>7</button>
+        <button id='btn8' onclick='adicionarNum("8")'>8</button>
+        <button id='btn9' onclick='adicionarNum("9")'>9</button>
+        <button class='op' onclick='adicionarOp("x")'>x</button>
+        <button id='btn4' onclick='adicionarNum("4")'>4</button>
+        <button id='btn5' onclick='adicionarNum("5")'>5</button>
+        <button id='btn6' onclick='adicionarNum("6")'>6</button>
+        <button class='op' id='btnDim' onclick='adicionarOp("-")'>-</button>
+        <button id='btn1' onclick='adicionarNum("1")'>1</button>
+        <button id='btn2' onclick='adicionarNum("2")'>2</button>
+        <button id='btn3' onclick='adicionarNum("3")'>3</button>
+        <button class='op' id='btnSom' onclick='adicionarOp("+")'>+</button>
+        <button class='duplo' id='btn0' onclick='adicionarNum("0")'>0</button>
+        <button id='btnPonto' onclick="adicionarPonto()">,</button>
+        <button class='op' id='btnIgual' onclick="resultado()">=</button>
+    </div>
+    <script src="calculadora.js"></script>
+</body>
+</html> 

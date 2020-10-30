@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'Didact Gothic', sans-serif;
+    src: url('https://diogovechio.com.br/fonts/DidactGothic-Regular.ttf');
+  }
+
+body {
+    background-color: lightgray;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+div.calculadora {
+    height: 400px;
+    width: 300px;
+    border-radius: 5px;
+    display: grid;
+}
+
+button {
+    background-color: white;
+    border: none;
+    outline: none;
+    transition: ease-in .2s;
+}
+
+button:hover {
+    background-color: #F0F0F0
+}
+
+button:active {
+    background-color: lightgray;
+}
+
+button.duplo {
+    grid-column: span 2;
+}
+
+button.triplo {
+    grid-column: span 3;
+}
+
+button.op {
+    background-color: #005CDE;
+    color: white;
+}
+
+button.op:hover {
+    background-color: #0047AB;
+
+}
+
+button.op:active {
+    background-color: #1C385E;
+}
+
+div.tela {
+    grid-column: span 4;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 2.5rem;
+}
+
+div.subtela {
+    grid-column: span 4;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+    padding-right: 20px;
+    padding-left: 1px;
+    font-size: 1.2rem;
+}
