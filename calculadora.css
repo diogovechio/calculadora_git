@@ -10,7 +10,7 @@ body {
 
 div.calculadora {
     height: 400px;
-    width: 320px;
+    width: 300px;
     border-radius: 5px;
     display: grid;
 }
@@ -55,7 +55,6 @@ button.op:active {
 div.tela {
     grid-column: span 4;
     height: 100%;
-    width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
     display: flex;
@@ -70,7 +69,6 @@ div.tela {
 div.subtela {
     grid-column: span 4;
     height: 100%;
-    width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
     display: flex;
